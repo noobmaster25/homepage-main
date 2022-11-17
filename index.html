@@ -1,108 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="./assets/images/logo.svg" alt="Logo" /></div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-  
-    
-    <section>
-      <h1>
-        The Bright Future of Web 3.0?
-      </h1>
-      <p>
-        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-        But is it really fulfilling its promise?
+    <main>
+      <section class="seccion-principal">
+        <div class="imagen-seccion">
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="primera-seccion"
+          />
+        </div>
+        <div class="informacion-principal">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <article>
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a href="#" id="btn-read-more"> Read more </a>
+          </article>
+        </div>
+      </section>
+      <aside>
+        <h2>New</h2>
 
-      </p>
-    <a href="#">
-      Read more
-    </a>
-    
-    </section>
-    <aside>
-      <h2>New</h2> 
-    
-      <article>
-        <h3>
-          Hydrogen VS Electric Cars
-        </h3>
-        <p>
-          Will hydrogen-fueled cars ever catch up to EVs?
-        </p>
-      </article>
-    <article>
-      <h3>
-        The Downsides of AI Artistry
-      </h3>
-      <p>
-        What are the possible adverse effects of on-demand AI image generation?
-      </p>
-      
-    </article>
-    <article>
-      <h3>
-        Is VC Funding Drying Up?
-      </h3>
-      <p>
-        Private funding by VC firms is down 50% YOY. We take a look at what that means.
-      </p>
-    </article>
-
-  </aside>
-  <section>
-    <article>
-      <div>01</div>
-      <h4>Reviving Retro PCs</h4>
-      <p>
-        What happens when old PCs are given modern upgrades?
-      </p>
-    </article>
-    <article>
-      <div>02</div>
-      <h4>Top 10 Laptops of 2022</h4>
-      <p>
-        Our best picks for various needs and budgets.
-      </p>
-    </article>
-    <article>
-      <div>03</div>
-      <h4>The Growth of Gaming</h4>
-      <p>
-        How the pandemic has sparked fresh opportunities.
-      </p>
-    </article>
-  </section>
-  </main>
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <article>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr />
+        </article>
+        <article>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <hr />
+        </article>
+        <article>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </aside>
+      <section class="noticias-extras">
+        <article>
+          <div class="imagen-articulo">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="pcs-retro" />
+          </div>
+          <div class="info-detalles">
+            <div class="numero-noticia">01</div>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article>
+          <div class="imagen-articulo">
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt="top-laptops"
+            />
+          </div>
+          <div class="info-detalles">
+            <div class="numero-noticia">02</div>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article>
+          <div class="imagen-articulo">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="gamming" />
+          </div>
+          <div class="info-detalles">
+            <div class="numero-noticia">03</div>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
