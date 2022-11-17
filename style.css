@@ -145,12 +145,6 @@ aside article p {
     min-width: 100px;
     
 }
-
-
-.info-detalles>* {
-    /* margin-bottom: .4rem; */
-}
-
 .info-detalles {
     height:auto;
     margin-left: 1rem;

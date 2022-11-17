@@ -15,8 +15,8 @@ Users should be able to:
 - **Bonus**: Toggle the mobile menu (requires some JavaScript)
 
 ### Screenshot
-
-![](./screenshot.jpg)
+desktop
+[![hom-page-escritorio.png](https://i.postimg.cc/bv2VZWZf/hom-page-escritorio.png)](https://postimg.cc/SXkf5ZLg)
 
 
 
