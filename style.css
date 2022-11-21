@@ -280,7 +280,8 @@ aside article p {
         flex-direction: column;
         justify-content: center;
         opacity: 0;
-        transition: transform .4s ease, opacity .4s ease;
+        transition: width .4s ease, opacity .4s ease;
+        overflow: hidden;
 
     }
 
@@ -319,12 +320,12 @@ aside article p {
     }
 
     .btn-menu-close {
-        transform: translateX(100%);
+        width:0;
 
     }
 
     .btn-menu-open {
-        transform: translateX(0%);
+        width:100vw;
         opacity: 1;
     }
 
