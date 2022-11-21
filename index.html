@@ -19,7 +19,8 @@
   <body>
     <header>
       <div class="logo"><img src="./assets/images/logo.svg" alt="Logo" /></div>
-      <nav>
+      <nav class="btn-menu-close">
+        <div id="btn-menu"><img src="./assets/images/icon-menu-close.svg" alt=""></div>
         <ul>
           <li>Home</li>
           <li>New</li>
@@ -28,15 +29,18 @@
           <li>Categories</li>
         </ul>
       </nav>
+      <div id="btn-hamburguer">
+        <img src="./assets/images/icon-menu.svg" alt="">
+      </div>
     </header>
-
     <main>
       <section class="seccion-principal">
         <div class="imagen-seccion">
           <img
             src="./assets/images/image-web-3-desktop.jpg"
-            alt="primera-seccion"
+            alt="imagen-primera-seccion"
           />
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="imagen-movil">
         </div>
         <div class="informacion-principal">
           <h1>The Bright Future of Web 3.0?</h1>
@@ -110,5 +114,6 @@
         </article>
       </section>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>
