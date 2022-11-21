@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 
 
@@ -15,8 +15,13 @@ Users should be able to:
 - **Bonus**: Toggle the mobile menu (requires some JavaScript)
 
 ### Screenshot
-desktop
+**desktop**
 [![hom-page-escritorio.png](https://i.postimg.cc/bv2VZWZf/hom-page-escritorio.png)](https://postimg.cc/SXkf5ZLg)
+[![home-page-laptop.png](https://i.postimg.cc/tRmBYHrC/home-page-laptop.png)](https://postimg.cc/14wGjbhL)
+
+**mobile**
+[![home-page-mobile.png](https://i.postimg.cc/V6ZWrjWH/home-page-mobile.png)](https://postimg.cc/JDJkSHgb)
+
 
 
 
